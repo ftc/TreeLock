@@ -1,4 +1,3 @@
 TreeLock
 ========
-
-You know when sometimes you just need a car but nobody has one?  Well this would be like if you built a giant walking spider instead of just going and buying a car.
+Random idea I had in a concurrent programming class to make a mutex. The idea is to have a tree of locks, each process starts at the branches and acquires locks until it gets to the root.  Probably no better in performance than the standard library but it was fun to build.
